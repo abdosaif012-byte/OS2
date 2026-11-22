@@ -11,8 +11,6 @@ jobs:
 
 
     steps:
-      - name: "Printing path"
-        run: pwd
+      - name: "Printing files"
+        run: ls
 
-      - name: "Printing Name"
-        run: echo Saif

@@ -1,1 +1,18 @@
+on:
+  push:
+    branches:
+      - master
 
+
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+
+    steps:
+      - name: "Printing path"
+        run: pwd
+
+      - name: "Printing Name"
+        run: echo Saif

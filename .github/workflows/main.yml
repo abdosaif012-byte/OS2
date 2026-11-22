@@ -11,11 +11,9 @@ jobs:
 
 
     steps:
-      - name: "Printing files before"
-        run: ls
-      
       - uses: actions/checkout@v3
+      - name: "docker login"
+        run : docker login --username abdosaif2005 --password dckr_pat_f2oVINBtObuc7ZMMUP1-dVmTUww
 
-      - name: "Printing files after"
-        run: ls
+
 

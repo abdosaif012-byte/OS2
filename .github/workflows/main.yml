@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: "docker login"
-        run : docker login --username abdosaif2005 --password dckr_pat_f2oVINBtObuc7ZMMUP1-dVmTUww
+        run : docker login --username ${{secrets.DOCKER_USERNAME}} --password ${{secrets.DOCKER_TOKEN}}
 
 
 
